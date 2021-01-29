@@ -9,6 +9,7 @@
     </head>
     <body>
         <livewire:counter>
+        @livewire('show-post', ['post' => $post])
         @livewireScripts
     </body>
 </html>
